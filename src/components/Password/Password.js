@@ -8,11 +8,10 @@ export const Password = () => {
 
     return (
         <div className={passwordStyle.passwordWrapper}>
-            <div>
+            <div onClick={toggle}>
                 <span>
                 <Icon
                     type={showPlainText ? 'eye-invisible' : 'eye'}
-                    onClick={toggle}
                 />
                 Show
                 </span>
